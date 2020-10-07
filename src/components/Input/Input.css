@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  width: 100%;
+  margin-top: auto;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input{
+  border: none;
+  border-radius: 0;
+  padding: .7em;
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.input::placeholder{
+  font-style: italic;
+}
+
+.sendButton{
+  color: #fff;
+  text-transform: uppercase;
+  background: #6c25c9;
+  padding: .7em;
+  width: 20%;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}

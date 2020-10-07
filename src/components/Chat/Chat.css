@@ -1,0 +1,18 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1A1A1D;
+  overflow-y: hidden;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  height: 100%;
+  width: 25rem;
+  max-width: 95%;
+}
